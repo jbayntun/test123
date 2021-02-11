@@ -33,7 +33,7 @@
 		<dependency>
 			<groupId>org.postgresql</groupId>
 			<artifactId>postgresql</artifactId>
-			<version>42.0.0</version>
+			<version>42.2.13</version>
 		</dependency>
 		<!-- end::postgres[] -->
 		<!-- tag::jfiglet[] -->
@@ -97,7 +97,7 @@
                 <configuration>
                     <apiToken>${env.SNYK_API_TOKEN}</apiToken>
                     <failOnSeverity>high</failOnSeverity>
-                    <org></org>
+                    <org/>
                 </configuration>
             </plugin>
 		</plugins>
